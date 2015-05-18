@@ -1,7 +1,13 @@
 package com.cinglevue.test.www.tests;
 
+
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
+
+/**
+ * Created by harshanw on 5/16/15.
+ * Runner class File for CingleVue Home Page Search
+ */
 
 @RunWith(Cucumber.class)
 @Cucumber.Options(format = {"pretty", "html:target/cucumber-htmlreport",
@@ -10,9 +16,7 @@ import org.junit.runner.RunWith;
         tags = { "@HomePageSearch" },
         glue = {"com.cinglevue.test.www"}
         )
-/**
- * Created by harshanw on 5/16/15.
- */
+
 
 public class RunHomePageSearch {
 }
